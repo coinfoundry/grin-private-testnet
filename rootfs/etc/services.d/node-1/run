@@ -1,6 +1,6 @@
 #!/bin/bash
 
 echo "* Starting node 1..."
-grin server -c /data/node-1/grin-server.toml
+grin server -c /data/node-1/grin-server.toml run
 
 s6-svc -d /var/run/s6/services/node-1

@@ -7,7 +7,7 @@
 
 #the directory, relative to current, in which the grin blockchain
 #is stored
-db_root = ./
+db_root = "."
 
 #path of TLS certificate file, self-signed certificates are not supported
 #tls_certificate_file = ""
@@ -19,7 +19,7 @@ api_http_addr = "0.0.0.0:3513"
 
 #path of the secret token used by the API to authenticate the calls
 #comment the it to disable basic auth
-api_secret_path = .api_secret
+api_secret_path = ".api_secret"
 
 #The chain type, which defines the genesis block and the set of cuckoo
 #parameters used for mining as well as wallet output coinbase maturity. Can be:
@@ -185,7 +185,7 @@ log_to_file = true
 file_log_level = "Info"
 
 #log file path
-log_file_path = grin-server.log
+log_file_path = "grin-server.log"
 
 #whether to append to the log file (true), or replace it on every run (false)
 log_file_append = true
