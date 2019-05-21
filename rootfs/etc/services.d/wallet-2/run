@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "* Starting wallet RPC 2..."
+grin-wallet -d /data/wallet-2 -p password listen
