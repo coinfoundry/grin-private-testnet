@@ -7,7 +7,7 @@
 
 #the directory, relative to current, in which the grin blockchain
 #is stored
-db_root = .
+db_root = ./
 
 #path of TLS certificate file, self-signed certificates are not supported
 #tls_certificate_file = ""
