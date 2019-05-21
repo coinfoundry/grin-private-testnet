@@ -27,7 +27,7 @@ api_secret_path = ".api_secret"
 #UserTesting - For regular user testing (cuckoo 16)
 #Floonet - For the long term floonet test network
 #Mainnet - For mainnet
-#chain_type = "UserTesting"
+chain_type = "UserTesting"
 
 #the chain validation mode, defines how often (if at all) we
 #want to run a full chain validation. Can be:
