@@ -11,6 +11,9 @@ RUN tar xzf /tmp/s6-overlay-amd64.tar.gz -C / && \
     tar xf /tmp/grin-wallet-v1.1.0-beta.3-linux-amd64.tar.gz -C /tmp && \
     mv /tmp/grin/grin* /usr/bin && cp /tmp/grin-wallet/grin* /usr/bin
 
+ADD rootfs /
+
+RUN grin-wallet --usernet -p password init
+
 ENTRYPOINT ["/init"]
 VOLUME ["/data"]
-ADD rootfs /

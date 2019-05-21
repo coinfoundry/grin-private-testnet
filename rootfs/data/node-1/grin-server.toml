@@ -68,11 +68,11 @@ host = "0.0.0.0"
 port = 3414
 
 #how to seed this server, can be None, List or DNSSeed
-seeding_type = "None"
+seeding_type = "List"
 
 #If the seeding type is List, the list of peers to connect to can
 #be specified as follows:
-#seeds = ["192.168.0.1:3414","192.168.0.2:3414"]
+seeds = ["127.0.0.1:3514"]
 
 #hardcoded peer lists for allow/deny
 #will *only* connect to peers in allow list
@@ -175,7 +175,7 @@ timeout = 10
 log_to_stdout = true
 
 #log level for stdout: Error, Warning, Info, Debug, Trace
-stdout_log_level = "Warning"
+stdout_log_level = "Info"
 
 #whether to log to a file
 log_to_file = true
